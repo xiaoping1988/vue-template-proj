@@ -1,0 +1,74 @@
+html,body {
+  height: 100%;
+  background: #E8EBED;
+  font-family: "SF Pro SC","SF Pro Text","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
+  margin: 0px;
+}
+
+.p-middle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.p-layout .p-navside {
+  width: 180px;
+}
+
+.p-layout .p-page-content {
+  margin-left: 180px;
+  width: calc(100% - 180px);
+}
+
+.p-navside {
+  position: fixed;
+  top: 60px;
+  height: calc(100% - 60px);
+  border-right: 1px solid #dfe4ed;
+  overflow: auto;
+  font-size: 14px;
+}
+
+.p-navside-toggle {
+  background: rgba(221, 221, 221, 0.19);
+  text-align: center;
+  height: 30px;
+  line-height: 30px;
+  cursor: pointer;
+}
+
+.p-navside .p-menu-item-icon {
+  margin-left: 20px;
+  margin-right: 10px;
+}
+
+.p-navside-menu {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.p-navside-menu ul {
+  margin-bottom: 0px;
+  padding-left: 0px;
+}
+
+.p-navside-menu ul li{
+  list-style: none;
+  height: 35px;
+  line-height: 35px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.p-navside-menu ul li:hover{
+  background: rgba(0, 162, 255, 0.2);
+  border-radius: 20px;
+  color: #FFFFFF;
+}
+
+.p-navside-menu ul .actived{
+  background: #50bfff!important;
+  border-radius: 20px;
+  color: #FFFFFF;
+}
